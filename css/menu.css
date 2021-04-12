@@ -1,0 +1,35 @@
+nav{
+    background-color:white;
+    color:red;
+    padding: 2px;
+}
+
+.menu {
+    display:flex; 
+    align-items:center;  
+}
+
+.menu li{
+    width: 15%;
+    list-style: none;
+}
+
+.menu a {
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;  
+    border: 3px white solid;  
+    border-radius: 7px;   
+}
+
+.linea {
+    flex-grow: 3;
+}
+
+.menu a:hover {
+    background-color: white;
+    border: 3px white;
+    border-radius: 3px;
+    color: red;
+}
+
